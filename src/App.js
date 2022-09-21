@@ -22,7 +22,7 @@ function App() {
       return;
     }
     dispatch(sendCartData(cart));
-  }, [cart]);
+  }, [cart, dispatch]);
 
   return (
     <>
